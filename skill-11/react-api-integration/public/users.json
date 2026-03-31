@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "zab",
+    "email": "zab@gmail.com",
+    "phone": "9876543210"
+  },
+  {
+    "id": 2,
+    "name": "uvw",
+    "email": "uvw@gmail.com",
+    "phone": "9123456780"
+  },
+  {
+    "id": 3,
+    "name": "def",
+    "email": "def@gmail.com",
+    "phone": "9988776655"
+  },
+  {
+    "id": 4,
+    "name": "xyz",
+    "email": "xyz@gmail.com",
+    "phone": "9012345678"
+  },
+  {
+    "id": 5,
+    "name": "abc",
+    "email": "abc@gmail.com",
+    "phone": "9090909090"
+  },
+  {
+    "id": 6,
+    "name": "mnop",
+    "email": "mnop@gmail.com",
+    "phone": "9871234567"
+  }
+]
