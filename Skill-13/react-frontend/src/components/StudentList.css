@@ -1,0 +1,36 @@
+.sl-wrap { background: #fff; border-radius: 12px; border: 1px solid #e5e7eb; overflow: hidden; }
+
+.sl-topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px; border-bottom: 1px solid #e5e7eb;
+}
+.sl-heading { font-size: 15px; font-weight: 600; color: #111827; }
+.sl-count   { font-size: 12px; color: #6b7280; background: #f3f4f6; padding: 3px 10px; border-radius: 20px; }
+
+.sl-state { padding: 40px; text-align: center; color: #6b7280; font-size: 14px; }
+.sl-error { color: #dc2626; background: #fef2f2; border-radius: 8px; margin: 16px; }
+.sl-empty { padding: 40px; text-align: center; color: #9ca3af; font-size: 14px; }
+
+.sl-table-wrap { overflow-x: auto; }
+.sl-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.sl-table th {
+  text-align: left; padding: 10px 16px;
+  font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
+  color: #6b7280; background: #f9fafb; border-bottom: 1px solid #e5e7eb;
+}
+.sl-table td { padding: 12px 16px; border-bottom: 1px solid #f3f4f6; color: #374151; }
+.sl-table tr:last-child td { border-bottom: none; }
+.sl-table tr:hover td { background: #f9fafb; }
+
+.sl-id   { color: #9ca3af; font-size: 12px; }
+.sl-name { font-weight: 500; color: #111827; }
+.sl-badge {
+  display: inline-block; font-size: 11px; padding: 2px 10px;
+  background: #eff6ff; color: #1d4ed8; border-radius: 20px;
+}
+.sl-del-btn {
+  font-size: 12px; padding: 4px 12px; border-radius: 6px;
+  border: 1px solid #fecaca; background: #fff5f5; color: #dc2626;
+  cursor: pointer; transition: background .15s;
+}
+.sl-del-btn:hover { background: #fee2e2; }

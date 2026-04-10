@@ -1,0 +1,34 @@
+.sf-wrap {
+  background: #fff; border-radius: 12px; border: 1px solid #e5e7eb;
+  padding: 28px 32px; max-width: 480px;
+}
+.sf-heading { font-size: 16px; font-weight: 600; color: #111827; margin-bottom: 20px; }
+
+.sf-msg { padding: 10px 14px; border-radius: 8px; font-size: 13px; margin-bottom: 16px; }
+.sf-error   { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+.sf-success { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+
+.sf-form { display: flex; flex-direction: column; gap: 16px; }
+.sf-group { display: flex; flex-direction: column; gap: 5px; }
+
+.sf-label { font-size: 12px; font-weight: 500; color: #374151; }
+.sf-input {
+  padding: 9px 12px; border: 1px solid #d1d5db; border-radius: 8px;
+  font-size: 13px; color: #111827; outline: none; transition: border .15s;
+  background: #fff;
+}
+.sf-input:focus { border-color: #1a56db; box-shadow: 0 0 0 3px rgba(26,86,219,.1); }
+
+.sf-actions { display: flex; gap: 10px; margin-top: 6px; }
+.sf-cancel {
+  flex: 1; padding: 9px; border-radius: 8px; border: 1px solid #d1d5db;
+  background: #fff; color: #374151; font-size: 13px; cursor: pointer;
+}
+.sf-cancel:hover { background: #f3f4f6; }
+.sf-submit {
+  flex: 2; padding: 9px; border-radius: 8px; border: none;
+  background: #1a56db; color: #fff; font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: background .15s;
+}
+.sf-submit:hover    { background: #1e40af; }
+.sf-submit:disabled { background: #93c5fd; cursor: not-allowed; }

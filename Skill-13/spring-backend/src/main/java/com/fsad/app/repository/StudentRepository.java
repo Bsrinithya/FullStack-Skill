@@ -1,0 +1,10 @@
+package com.fsad.app.repository;
+
+import com.fsad.app.model.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student, Long> {
+    // JpaRepository provides: findAll, findById, save, deleteById, etc.
+}
